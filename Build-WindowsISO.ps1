@@ -44,3 +44,6 @@ if ($process.ExitCode -eq 0) {
     Write-Error "oscdimg failed with exit code $($process.ExitCode)"
     Write-Host ""
 }
+
+#Changelog
+#2025-05-10 - AS - v1, Initial release.
